@@ -1,0 +1,829 @@
+header{
+    text-align: center;
+    font-size: 25px;
+    background-image: url(../flow-5-eksamen/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-family: lato;
+} 
+nav{
+    height: 30px;
+    text-align: center;
+    background-color:#373738;
+    opacity: 90%;
+    padding-top: 10px;
+    font-family: lato;
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    font-size: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #ffffff;
+}
+nav a:hover{
+    color:#bc8f8f ;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+h1{
+    font-family: lato;
+}
+
+main{   
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+
+/*Om mig sektion style*/
+.cards-om{
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: lato;
+    line-height: 25px;
+}
+.card1{
+    background-color:#ffffff;
+    min-height: 300px;
+    width: 650px;
+    padding-top: 10px;
+}
+.om-mig{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.card2{
+    background-color: #EBEBEB;
+    min-height: 300px;
+    width: 650px;
+    padding-top: 20px;
+}
+.some-video{
+    padding-top: 90px;
+}
+.porttræt{
+    object-fit: cover;
+    object-position: bottom;
+}
+.cv-knap{
+    float: center;
+    border: 0;
+    background: #373738;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: lato;
+    font-size: 17px;
+}
+.cv-knap:hover{
+    background: rosybrown;
+}
+.cv-a:link{
+    color: white;
+    text-decoration: none;
+}
+.cv-a:visited{
+    color: white;
+    text-decoration: none;
+}
+.cv-a:active{
+    color: white;
+    text-decoration: none;
+}
+/*Portfolio sektion style*/
+.portfoliocontainer{
+    background-color:#EBEBEB;
+    min-height: 600px;
+    font-family: lato;
+    border: none;
+}
+.portfolio-overskrift{
+    font-size: 23px;
+    padding-top: 20px;
+}
+.portfolio-tekst{
+    font-size: 17px;
+}
+.nikesko{
+    object-fit: cover;
+    object-position: bottom;
+}
+.nikesko:hover{
+    opacity: 30%;
+}
+.foundmyvillage{
+    object-fit: cover;
+    object-position: center;
+}
+.foundmyvillage:hover{
+    opacity: 30%;
+}
+.cykel{
+    object-fit: cover;
+    object-position: bottom;
+}
+.cykel:hover{
+    opacity: 30%;
+}
+.portfolio-old{
+    object-fit: cover;
+    object-position: center;
+}
+.portfolio-old:hover{
+    opacity: 30%;
+}
+.reflektion{
+    object-fit: cover;
+    object-position: bottom;
+}
+.logo1{
+    object-fit: cover;
+    object-position: bottom;
+}
+.logo2{
+    object-fit: cover;
+    object-position:center;
+}
+.rentoresund{
+    object-fit: cover;
+    object-position: bottom;
+}
+.rentoresund:hover{
+    opacity: 30%;
+}
+
+/*Formular sektion style*/
+.kontaktformular{
+    padding-bottom: 20px;
+    font-family: lato;
+}
+.kontaktp{
+    font-size: 18px;
+    font-family: lato;
+    text-align: center;
+}
+.Kontakt-overskrift{
+    font-size: 23px;
+    padding-top: 20px;
+    font-family: lato;
+}
+.contact-section{
+    flex-direction: column;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px;
+    border: 0;
+    background-color: #EBEBEB;
+    padding: 20px 40px;
+    outline: none;
+    color: #373738;
+    transition: 0.5s;
+}
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 0px #373738;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+    font-family: lato;
+}
+.contact-form-btn{
+    float: center;
+    border: 0;
+    background: #373738;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: lato;
+}
+.contact-form-btn:hover{
+    background:rosybrown;
+}
+.some{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border:none;
+}
+.facebook{
+    text-decoration: none;
+    padding: 10px;
+}
+.instagram{
+    text-decoration: none;
+    padding: 10px;
+}
+.linkedin{
+    text-decoration: none;
+    padding: 10px;
+}
+/*Studie side style */
+.h3{
+    font-size: 23px;
+}
+.studie-top{
+    background-color: #EBEBEB;
+    margin: none;
+}
+.studie-card1{
+    background-color:#EBEBEB;
+    min-height: 200px;
+    font-family: lato;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.beskrivelse-tekst{
+    font-size: 17px;
+    line-height: 25px;
+}
+.studie-overskrift{
+    font-size: 25px;
+}
+.projekt-line{
+    padding-bottom: 15px;
+}
+.beskrivelse-knap{
+    float: center;
+    border: 0;
+    background: #373738;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: lato;
+    font-size: 13px;
+}
+.del1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: lato;
+    line-height: 25px;
+}
+.beskrivelse-knap:hover{
+    background: rosybrown;
+}
+.beskrivelse-knap:link{
+    color: white;
+    text-decoration: none;
+}
+.beskrivelse-knap:visited{
+    color: white;
+    text-decoration: none;
+}
+.beskrivelse-knap:active{
+    color: white;
+    text-decoration: none;
+}
+.studie-card2{
+    background-color:#ffffff;
+    min-height: 300px;
+    min-width: 689.1px;
+    line-height: 25px;
+}
+.projektstyring-tekst{
+    text-align: left;
+    line-height: 25px;
+    padding: 20px;
+}
+.trello-img{
+    float: center;
+    padding: 20px;
+}
+.brugertest-1{
+    min-height: 300px;
+    line-height: 25px;
+    background-color:#EBEBEB;
+    padding-top: 20px;
+    font-family: lato;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.brugertest-pt2{
+    background-color:#EBEBEB;
+    max-width: 700px;
+    padding: 20px;
+}
+.brugertest-tekst1{
+    text-align: left;
+    line-height: 25px;
+}
+.mylist{
+    text-align: left;
+    line-height: 25px;
+}
+.brugertest-tekst2{
+    text-align: left;
+    line-height: 25px;
+}
+.portfolio-btn{
+    float: center;
+    border: 0;
+    background: #373738;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: lato;
+    font-size: 13px;
+}
+.portfolio-btn:hover{
+    background: rosybrown;
+}
+.portfolio-btn:link{
+    color: white;
+    text-decoration: none;
+}
+.portfolio-btn:visited{
+    color: white;
+    text-decoration: none;
+}
+.portfolio-btn:active{
+    color: white;
+    text-decoration: none;
+}
+.studie-card3{
+    background-color:#373738;
+    min-height: 300px;
+    min-width: 689.1px;
+}
+.del2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:#373738;
+    font-family: lato;
+    line-height: 25px;
+}
+.studie-card4{
+    background-color:#373738;
+    min-height: 300px;
+    min-width: 1380px;
+}
+.imgstyle{
+    padding:20px;
+}
+.studie-card5{
+    background-color:skyblue;
+    min-height: 300px;
+    min-width: 689.1px;
+}
+.del3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:white;
+    font-family: lato;
+    line-height: 25px;
+}
+.studie-card6{
+    background-color:tomato;
+    min-height: 300px;
+    min-width: 1380px;
+}
+.del4{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:white;
+    font-family: lato;
+    line-height: 25px;
+}
+.studie-card7{
+    background-color:#ffffff;
+    min-height: 250px;
+    min-width: 440px;
+    padding: 20px;
+    text-align: left;
+}
+.studie-card8{
+    background-color:#bc8f8f;
+    min-height: 250px;
+    min-width: 440px;
+    padding: 20px;
+    text-align: left;
+}
+.studie-card9{
+    background-color:#ffffff;
+    min-height: 250px;
+    min-width: 440px;
+    padding: 20px;
+    text-align: left;
+}
+.mockup{
+    background-color:#373738;
+    min-height: 300px;
+    min-width: 689.1px;
+    line-height: 25px;
+    display: flex;
+    font-family: lato;
+}
+.inspo{
+    padding-top: 20px;
+}
+.inspo-overskrift{
+    color: white;
+}
+.inspo-tekst{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    color: white;
+}
+.xd-div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:white;
+    font-family: lato;
+    line-height: 25px;
+}
+.xd-img{
+    padding: 15px;
+}
+.xd-text{
+    padding: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+   
+    text-align: left;
+    line-height: 25px;
+    background-color: #EBEBEB;
+}
+.xd-overskrift{
+    text-align: center;
+}
+.del5{
+    display: flex;
+    text-align: center;
+    background-color:#ffffff;
+    font-family: lato;
+    line-height: 25px;
+}
+.studie-card10{
+    background-color:#ffffff;
+    min-height: 200px;
+    max-width: 689.1px;
+    font-family: lato;
+    line-height: 25px;
+    padding: 20px;
+    text-align: left;
+}
+.studie-card11{
+    background-color:#bc8f8f;
+    min-height: 300px;
+    min-width: 689.1px;
+    padding: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.kode-div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: lato;
+}
+.kode-img{
+    background-color: #EBEBEB;
+    padding-right: 20px;
+    padding-top: 75px;
+}
+.kode-text{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    line-height: 25px;
+    background-color: #EBEBEB;
+}
+.kode-overskrift{
+    text-align: center;
+}
+
+
+
+/*Nikesko side style*/
+.nikeh1{
+    letter-spacing: 1px;
+}
+.nike-opgavebeskrivelse{
+padding-right: 200px;
+padding-left: 200px;
+text-align: center;
+font-size: 17px;
+}
+.nikesko-beskrivelse{
+    min-height: 300px;
+    line-height: 25px;
+    background-color:#EBEBEB;
+    padding-top: 20px;
+    font-family: lato;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 300px;
+}
+.nike-tekst1{
+    min-width: 689.1px;
+    background-color:#EBEBEB;
+    text-align: left;
+    
+}
+.nike-start{
+    background-color:#EBEBEB;
+    min-height: 300px;
+    padding-top: 10px;
+    font-family: lato;
+    padding-right: 300px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+}
+.nike-img1{
+    min-width: 681.1px;
+    background-color:#EBEBEB;
+}
+.nike-tekst{
+    min-width: 689.1px;
+    background-color:#ffffff;
+    text-align: left;
+    
+}
+.nike-list{
+    text-align: left;
+    line-height: 25px;
+}
+.nike-udfald{
+    background-color:#ffffff;
+    min-height: 300px;
+    padding-top: 10px;
+    font-family: lato;
+    padding-right: 300px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+}
+.nike-img{
+    min-width: 681.1px;
+    background-color:#ffffff;
+}
+/*Orginal portfolio styles*/
+.org-overskrift{
+    font-family: lato;
+    padding-top: 20px;
+    color: #373738
+}
+.line{
+    color: #bc8f8f;
+    font-weight:bolder;
+    padding-bottom: 20px;
+}
+.h3{
+    font-family: lato;
+    font-size: 23px;
+}
+.portfolio-beskrivelse{
+    min-height: 300px;
+    line-height: 25px;
+    background-color:#EBEBEB;
+    padding-top: 20px;
+    font-family: lato;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 300px;
+
+}
+.drømme-portfolio{
+    background-color:#ffffff;
+    min-height: 300px;
+    padding-top: 10px;
+    font-family: lato;
+    padding-right: 300px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+}
+.drøm-tekst{
+    min-width: 689.1px;
+    background-color:#ffffff;
+    
+}
+.drøm-img{
+    min-width: 681.1px;
+    background-color:#ffffff;
+}
+.original-container{
+    background-color:#373738;
+    min-height: 600px;
+    font-family: lato;
+    border: none;
+}
+.udtryk-h3{
+    padding-top: 20px;
+    font-family: lato;
+    color: #ffffff;
+}
+
+.portfolio-tekst2{
+    font-size: 17px;
+    line-height: 25px;
+    font-family: lato;
+    padding-right: 200px;
+    padding-left: 200px;
+    color: #ffffff;
+}
+.forside{
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+
+}
+.gl-portfolio{
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+
+}
+.gl-ommig{
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+
+}
+.ps-opgave{
+    object-fit: cover;
+    object-position: center;  
+    padding: 20px;
+}
+.gl-kontakt{
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+}
+/*konceptudvikling style*/
+.app-card1{
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: lato;
+    line-height: 25px;
+}
+.app-tekst{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.app-knap{
+    float: center;
+    border: 0;
+    background: #373738;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: lato;
+    font-size: 17px;
+    text-align: center;
+}
+.app-knap:hover{
+    background: rosybrown;
+}
+.app-a:link{
+    color: white;
+    text-decoration: none;
+}
+.app-a:visited{
+    color: white;
+    text-decoration: none;
+}
+.app-a:active{
+    color: white;
+    text-decoration: none;
+}
+/*Fotoopgave i Kbh*/
+.fotobeskrivelse-tekst{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.foto-list{
+    text-align: left;
+    padding-left: 170px;
+    padding-right: 170px;
+    line-height: 25px;
+}
+.råt-img{
+    padding-top: 20px;
+}
+.opgave-svar{
+    text-align: left;
+    font-family: lato;
+    line-height: 25px;
+    padding-right: 215px;
+    padding-left: 215px;
+}
+.resultat{
+    font-family: lato;
+    line-height: 25px;
+}
+/*Rent Øresund projekt side style*/
+.oresund-overskrift{
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: lato;
+    
+}
+.oresund-top{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    text-align: center;
+    padding-left: 230px;
+    padding-right: 230px;
+    line-height: 25px;
+    font-family: lato;
+}
+.video-oresund{
+    background-color: #373738;
+    padding-bottom: 50px;
+}
+.oresund-card1{
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    background-color:white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: lato;
+    line-height: 25px;
+    
+}
+.oresund-line2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.oresund-h2{
+    text-align: center;
+}
+.oresund-card2{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#EBEBEB;
+    padding-bottom: 30px;
+    font-family: lato;
+    line-height: 25px;
+    flex-direction: column;
+    min-width: 700px;
+    align-items: center;
+}
+
+/*Footer sektion style*/
+footer{
+    background-color:#EBEBEB;
+    text-align: center;
+}
